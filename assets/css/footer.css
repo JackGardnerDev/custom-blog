@@ -1,0 +1,11 @@
+/* Footer Styling */
+
+.footer {
+    background-color: var(--clr-dark);
+    text-align: center;
+    padding: 25px 0px;
+}
+
+#footer {
+    color: var(--clr-light);
+}

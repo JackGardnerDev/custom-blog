@@ -1,0 +1,54 @@
+/* Subscribe Form Styling */
+
+.subscribe-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.interest-checkboxes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: baseline;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+    align-self: flex-start;
+}
+
+button {
+    background-color: var(--clr-accent);
+    color: var(--clr-light);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#subscribeButton:hover {
+    color: var(--clr-dark);
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="w3dev Blog Subscribe">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Jack Gardner">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>w3dev Blog Subscribe</title>
+    <link rel="icon" type="image/x-icon" href="../assets/imgs/favicon.png">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <div class="navbar-logo">w3dev Blog</div>
+    <div class="navbar-links">
+        <a href="../index.html">Home</a>
+        <a href="#">About</a>
+        <a href="#">Search</a>
+        <a href="#" class="active">Subscribe</a>
+        <a href="#">Logout</a>
+    </div>
+</nav>
+
+<!-- Form and Aside Wrapper -->
+<div class="wrapper">
+
+    <!-- Form Content -->
+    <main class="blog-content">
+
+        <h1>Subscribe to Our Newsletter</h1>
+        <form action="#" method="post" class="subscribe-form">
+
+            <label for="firstname" class="accent">First Name:</label>
+            <input type="text" id="firstname" name="firstname" placeholder="First Name" required>
+
+            <label for="lastname" class="accent">Last Name:</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Last Name" required>
+        
+            <label for="email" class="accent">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+        
+            <label for="age" class="accent">Age:</label>
+            <input type="number" id="age" name="age" placeholder="Your Age" min="13" max="125">
+        
+            <label for="gender" class="accent">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        
+            <label for="interests" class="accent">Areas of Interest:</label>
+            <div class="interest-checkboxes">
+                <div class="checkbox-label">
+                    <input type="checkbox" name="interest" value="html"> HTML
+                </div>
+                <div class="checkbox-label">
+                    <input type="checkbox" name="interest" value="css"> CSS
+                </div>
+                <div class="checkbox-label">
+                    <input type="checkbox" name="interest" value="javascript"> JavaScript
+                </div>
+                <div class="checkbox-label">
+                    <input type="checkbox" name="interest" value="react"> React
+                </div>
+                <div class="checkbox-label">
+                    <input type="checkbox" name="interest" value="vue"> Vue.js
+                </div>
+                <div class="checkbox-label">
+                    <input type="checkbox" name="interest" value="node"> Node.js
+                </div>
+                <div class="checkbox-label">
+                    <input type="checkbox" name="interest" value="python"> Python
+                </div>
+                <div class="checkbox-label">
+                    <input type="checkbox" name="interest" value="git"> Git
+                </div>
+                <div class="checkbox-label">
+                    <input type="checkbox" name="interest" value="responsive-design"> UX/UI
+                </div>
+                <div class="checkbox-label">
+                    <input type="checkbox" name="interest" value="backend"> Backend
+                </div>
+            </div>
+        
+            <button type="submit" id="subscribeButton">Subscribe</button>
+
+        </form>
+        
+    </main>
+
+    <!-- Sidebar -->
+
+    <aside class="sidebar">
+        <h2>Recent Articles</h2>
+        <ul>
+            <li><a href="blog-post.html">Writing Head Tags in HTML</a></li>
+            <li><a href="#">Media Query in CSS</a></li>
+            <li><a href="#">Event Listeners in JavaScript</a></li>
+            <li><a href="#">Toggling Content with jQuery</a></li>
+            <li><a href="#">Data Types using TypeScript</a></li>
+            <li><a href="#">Navigation Bars in Bootstrap</a></li>
+            <li><a href="#">Routing in React</a></li>
+            <li><a href="#">PHP Includes</a></li>
+            <li><a href="#">HTML Forms</a></li>
+            <li><a href="#">CSS Grid Container</a></li>
+            <li><a href="#">Accordions</a></li>
+            <li><a href="#">Adding Tabs</a></li>
+            <li><a href="#">Search Bar</a></li>
+            <li><a href="#">Dropdown Menu</a></li>
+            <li><a href="#">Animated Slideshows</a></li>
+            <li><a href="#">Making a Gallery</a></li>
+            <li><a href="#">Image Decoration</a></li>
+            <li><a href="#">Text Decoration</a></li>
+            <li><a href="#">Adding Favicons</a></li>
+        </ul>
+    </aside>
+
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <p id="footer">© 2023 w3dev Blog. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

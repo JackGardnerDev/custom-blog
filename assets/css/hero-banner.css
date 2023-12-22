@@ -1,0 +1,30 @@
+/* Hero Banner Styling */
+
+.hero-banner {
+    background-image: url('../imgs/banner.png');
+    background-size: cover;
+    background-position: center;
+    color: var(--clr-light);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#banner {
+    color: var(--clr-accent);
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 25px;
+    background-color: var(--clr-accent);
+    color: var(--clr-light);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: color 0.3s ease;
+}
+
+.cta-button:hover {
+    color: var(--clr-dark);
+}

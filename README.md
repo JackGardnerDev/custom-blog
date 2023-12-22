@@ -1,1 +1,2 @@
-# custom-blog
+# Custom Blog Website
+HTML & CSS Custom Blog Website

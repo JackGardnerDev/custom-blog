@@ -1,0 +1,72 @@
+/* Blog Styling */
+
+.blog-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.blog-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.blog-author {
+    padding: 15px;
+    overflow: hidden;
+}
+
+.blog-card img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+figcaption {
+    font-style: italic;
+    margin-left: 15px;
+}
+
+.blog-content {
+    padding: 15px;
+}
+
+.blog-content p {
+    line-height: 1.5;
+}
+
+.blog-buttons button {
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    margin-top: 5px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.blog-buttons button:hover {
+    color: var(--clr-accent);
+}
+
+.blog-author ul {
+    list-style: none;
+    padding: 0;
+}
+
+.blog-author li {
+    margin-bottom: 10px;
+}
+
+.blog-author a {
+    text-decoration: none;
+    color: var(--clr-accent);
+    transition: color 0.3s ease;
+}
+
+.blog-author a:hover {
+    color: #009;
+}
